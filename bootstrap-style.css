@@ -1,0 +1,32 @@
+.carouselitem {
+	width: auto;
+	height: auto;
+	margin: 0 auto;
+}
+.carouselitem img {
+	width: 100%;
+	height; 100%);
+	object-fit: cover;
+}
+.carousel {
+	border: 2px solid var(--bordercolor3);
+	padding: 0px;
+	margin: 0px;
+}
+.carousel-control-next,
+.carousel-control-prev {
+	height: 400px;
+	padding: 0px;
+	margin: 0px;
+}
+.carousel-control-prev-icon{
+	width: 32px;
+	height: 32px;
+	background-image: url("img/left_arrow.png");
+}
+.carousel-control-next-icon{
+	width: 32px;
+	height: 32px;
+	background-image: url("img/right_arrow.png");
+}
+
